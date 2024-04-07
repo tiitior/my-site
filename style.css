@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+header, footer {
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    color: aliceblue;
+}
+
+.title {
+    text-transform: capitalize;
+    font-size: 38px;
+}
+
+.logo {
+    animation: logoAnimation 1s linear infinite alternate;
+}
+
+main {
+    flex: auto;
+    padding: 20px 40px;
+}
+
+@keyframes logoAnimation {
+    0% {
+        transform: rotate(-30deg);
+    }
+
+    40% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(30deg);
+    }
+}
+
+.game {
+    background-color: steelblue;
+    width: min-content;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: default;
+
+    &:hover img{
+        filter: brightness(1.2);
+    }
+
+    &:hover {
+        box-shadow: 3px 3px 10px #00000055;
+    }
+
+    & img {
+        border-radius: 5px;
+    }
+
+    & button {
+        border-radius: 5px;
+        border: none;
+        width: 100%;
+        padding: 10px 0;
+        margin-top: 20px;
+        &:hover {
+            background-color: steelblue;
+            color: aliceblue;
+            filter: brightness(1.2);
+            cursor: pointer;
+        }
+        
+        &:active {
+            filter: brightness(1);
+        }
+    }
+}
+
+#games {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+nav {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    height: 100%;
+    width: 300px;
+    box-sizing: border-box;
+    padding: 80px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+    background-color: brown;
+    color: aliceblue;
+
+    z-index: 100;
+}
+
+nav label {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+
+nav a {
+    padding: 10px;
+    background-color: aliceblue;
+    text-decoration: none;
+}
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
